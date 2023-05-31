@@ -4,6 +4,7 @@
     --roboto:'Roboto', sans-serif;
 }
 
+
 body{
     background-color: var(--secondary);
     height: 100vh;
@@ -37,10 +38,10 @@ body{
 
 
 .slider-image img{
-    width: 100%;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 10px solid #fff;
+    width: 120%;
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+    /* border: 10px solid #fff; */
     transform: rotate(5deg);
 }
 
@@ -54,27 +55,28 @@ body{
 .name{
     font-size: 25px;
     color: var(--primary);
-    text-align: center;
+    text-align: right;
 }
 
 .job{
     font-size: 90px;
     font-family: var(--roboto);
-    text-align: center;
+    text-align: right;
     color: #fff;
+
 }
 
 .location{
     font-size: 60px;
     font-family: var(--roboto);
-    text-align: center;
+    text-align: right;
     color: var(--primary)
 }
 
 
 .description{
     color: rgba(255, 255, 255, 0.733);
-    text-align: center;
+    text-align: right;
 }
 
 @media(max-width:767px){
@@ -162,11 +164,12 @@ table{
 }
 
 .footer{
-    height: 50px;
+    height: 300px;
     width: 100vw;
     background-color: black;
     display: flex;
     align-items: center;
+    margin-top: 100px;
 }
 
 .footer a{
